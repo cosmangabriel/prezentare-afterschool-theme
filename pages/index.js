@@ -17,6 +17,7 @@ export default function Index({ posts, globalData }) {
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
           {globalData.blogTitle}
         </h1>
+  /*
         <ul className="w-full">
           {posts.map((post) => (
             <li
@@ -44,7 +45,95 @@ export default function Index({ posts, globalData }) {
               </Link>
             </li>
           ))}
-        </ul>
+        </ul>*/
+  <Title>Maranatha After School</Title>
+       <h1>Maranatha After School</h1>
+   
+    <div class="container">
+      
+        <iframe src="https://www.youtube.com/embed/24D4C40xKfY" frameborder="0" allowfullscreen></iframe>
+
+        <h2>Tarife</h2>
+        <table>
+            <tr>
+                <th>Luna</th>
+                <th>Nr. de zile școlare</th>
+                <th>Taxă lună întreagă</th>
+                <th>Nr. zile jumătate de lună</th>
+                <th>Taxă jumătate de lună</th>
+            </tr>
+            <tr>
+                <td>Septembrie</td>
+                <td>13</td>
+                <td>390</td>
+                <td>6</td>
+                <td>240</td>
+            </tr>
+            <tr>
+                <td>Octombrie</td>
+                <td>22</td>
+                <td>660</td>
+                <td>11</td>
+                <td>440</td>
+            </tr>
+            <tr>
+                <td>Noiembrie</td>
+                <td>19</td>
+                <td>570</td>
+                <td>9</td>
+                <td>360</td>
+            </tr>
+            <tr>
+                <td>Decembrie</td>
+                <td>16</td>
+                <td>480</td>
+                <td>8</td>
+                <td>320</td>
+            </tr>
+            <tr>
+                <td>Ianuarie</td>
+                <td>20</td>
+                <td>600</td>
+                <td>10</td>
+                <td>400</td>
+            </tr>
+            <tr>
+                <td>Februarie</td>
+                <td>14</td>
+                <td>420</td>
+                <td>7</td>
+                <td>280</td>
+            </tr>
+            <tr>
+                <td>Martie</td>
+                <td>21</td>
+                <td>630</td>
+                <td>10</td>
+                <td>400</td>
+            </tr>
+            <tr>
+                <td>Aprilie</td>
+                <td>22</td>
+                <td>660</td>
+                <td>11</td>
+                <td>440</td>
+            </tr>
+            <tr>
+                <td>Mai</td>
+                <td>19</td>
+                <td>570</td>
+                <td>9</td>
+                <td>360</td>
+            </tr>
+            <tr>
+                <td>Iunie</td>
+                <td>12</td>
+                <td>360</td>
+                <td>6</td>
+                <td>240</td>
+            </tr>
+        </table>
+    </div>
       </main>
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground
